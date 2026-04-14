@@ -42,14 +42,15 @@ p {
   min-height: 80vh;
   background: 
     linear-gradient(
-      rgba(0,0,0,0.7),
-      rgba(0,0,0,0.7)),
+      rgba(0,0,0,0.8),
+      rgba(0,0,0,0.6)),
     url("images/hero-texture.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
   padding: 4rem 2rem;
+  filter: contrast(105%) saturate(90%);
 }
 
 .hero-content {
