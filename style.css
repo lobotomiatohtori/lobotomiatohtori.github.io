@@ -44,7 +44,7 @@ p {
     linear-gradient(
       rgba(0,0,0,0.7),
       rgba(0,0,0,0.7)),
-    url("hero-placeholder.jpg");
+    url("images/hero-texture.jpg");
   background-size: cover;
   background-position: center;
   display: flex;
