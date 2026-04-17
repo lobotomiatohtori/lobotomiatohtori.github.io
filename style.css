@@ -212,11 +212,12 @@ section + section {
   object-fit: cover;
   display: block;
   border-radius: 10px;
+  margin-bottom: 1rem;
   transition: transform 0.3s ease;
 }
 
 .project:hover img {
-  transform: scale(1.03);
+  transform: scale(1.04);
 }
 
 
