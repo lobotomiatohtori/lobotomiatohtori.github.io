@@ -6,14 +6,29 @@ body {
   margin: 0;
   font-family: 'Roboto', system-ui, -apple-system, sans-serif;
   background-color: #0f0f0f;
+  background-image: radial-gradient(circle at 20% 20%, rgba(255, 59, 59, 0.06)),
+                    radial-gradient(circle at 80% 70%, rgba(255, 59, 59, 0.04));
   color: #e6e6e6;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
 }
 
 h1 {
-  font-size: clamp(2.8rem, 5vw, 3.8rem);
+  font-family: 'Montserrat', sans-serif;
+  font-size: clamp(3rem, 6vw, 4.5rem);
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
   margin: 0;
+}
+
+h2::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 40px;
+  height: 2px;
+  background: #ff3b3b;
 }
 
 h2 {
@@ -65,8 +80,9 @@ p {
 
 .hero h1 {
   color: #ffffff;
-  text-transform: uppercase;
-  letter-spacing: 0.4em;
+  text-shadow: 
+    0 0 10px rgba(255, 59, 59, 0.15),
+    0 0 25px rgba(255, 59, 59, 0.08);
 }
 
 .hero p {
@@ -76,6 +92,20 @@ p {
   text-transform: uppercase;
   color: #e0e0e0;
   opacity: 0.85;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.02),
+    rgba(255, 255, 255, 0.02) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+  pointer-events: none;
 }
 
 
@@ -95,8 +125,12 @@ section + section {
 }
 
 .project {
-  padding: 2rem 0;
-  border-bottom: 1px solid #2a2a2a;
+  padding: 1.8rem;
+  border: 1px solid #222;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(4px);
+  transition: all 0.25s ease;
 }
 
 .project:last-child {
@@ -108,17 +142,21 @@ section + section {
 }
 
 .project a {
-  display: inline-block;
-  margin-top: 0.8rem;
-  font-size: 0.75rem;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #d83a2e;
-  transition: width 0.2s ease;
+  postion: relative;
 }
 
-.project a: hover::after {
+.project a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 2px;
+  width: 0%;
+  height: 1px;
+  background: #ff3b3b;
+  transiton: width 0.25s ease;
+}
+
+.project :hover::after {
   width: 100%
 }
 
