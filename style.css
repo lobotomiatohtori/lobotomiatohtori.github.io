@@ -173,16 +173,6 @@ section + section {
   position: relative;
 }
 
-.about::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 2px;
-  background: #ff3b3b;
-}
-
 .about h2 {
   margin-bottom: 1.2rem;
 }
