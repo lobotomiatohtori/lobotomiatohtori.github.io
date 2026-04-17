@@ -177,6 +177,13 @@ section + section {
   border-bottom: none;
 }
 
+.project h3 {
+  font-size: 1rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: #9aa0a6;
+}
+
 .project p {
   margin-top: 0.4rem;
 }
