@@ -165,13 +165,19 @@ section + section {
 }
 
 .project {
-  padding: 1.8rem 0;
+  padding: 1.8rem 1.5rem;
+  margin-bottom: 1.5rem;
   border: 1px solid #222;
   border-radius: 10px;
-  border-bottom: 1px solid #222;
-  background: rgba(255, 255, 255, 0.02);
+  background: rgba(255, 255, 255, 0.03);
   backdrop-filter: blur(4px);
   transition: all 0.25s ease;
+}
+
+.project:hover {
+  transform: translateY(-4px);
+  border-color: rgba(255, 59, 59, 0.5);
+  background: rgba(255, 59, 59, 0.04);
 }
 
 .project:last-child {
@@ -179,6 +185,8 @@ section + section {
 }
 
 .project h3 {
+  margin-left: 0;
+  margin-right: 0;
   font-size: 1rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -186,8 +194,16 @@ section + section {
 }
 
 .project p {
-  margin-top: 0.4rem;
+  margin-top: 0.5rem;
+  margin-left: 0;
+  margin-right: 0;
   color: #b8b8b8;
+}
+
+.project a {
+  margin-top: 1rem;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 
