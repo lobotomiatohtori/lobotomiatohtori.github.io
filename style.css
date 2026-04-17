@@ -47,9 +47,9 @@ h3 {
 }
 
 p {
-  max-width: 65ch;
   color: #cfcfcf;
   font-size: 0.95rem;
+  line-height: 1.7;
 }
 
 a {
