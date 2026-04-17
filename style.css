@@ -164,6 +164,36 @@ section + section {
   margin-top: 6rem;
 }
 
+.about {
+  padding: 2rem 2rem;
+  border: 1 solid #222;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.02);
+  backdrop-filter: blur(4px);
+  position: relative;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 2px;
+  background: #ff3b3b;
+}
+
+.about h2 {
+  margin-bottom: 1.2rem;
+}
+
+.about p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #d0d0d0;
+  max-width: 65ch;
+}
+
 .project {
   padding: 1.8rem 1.5rem;
   margin-bottom: 1.5rem;
