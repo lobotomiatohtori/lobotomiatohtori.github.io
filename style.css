@@ -88,7 +88,8 @@ a:hover {
 ===================== */
 
 .hero {
-  min-height: 50vh;
+  position: relative;
+  min-height: 60vh;
   background: 
     linear-gradient(
       rgba(0,0,0,0.8),
