@@ -263,7 +263,7 @@ section + section {
     rgba(0, 42, 50, 0.92),
     rgba(0, 42, 50, 0.85)
   );
-  border: 1px solid rgba(255, 255, 255, 0.06)
+  border: 1px solid rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(4px);
   transition: all 0.25s ease;
 }
