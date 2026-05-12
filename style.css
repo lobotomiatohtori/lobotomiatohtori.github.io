@@ -201,13 +201,6 @@ body.python .nav-python::after {
    Main Layout
 ===================== */
 
-main {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 4rem 2rem 6rem;
-  position: relative;
-}
-
 main::before {
   content: "";
   position: absolute;
@@ -215,11 +208,21 @@ main::before {
   left: 0;
   right: 0;
   height: 40px;
-  background: linear-gradien (
+  background: linear-gradien(
     to bottom,
     rgba(0, 42, 50, 0.9),
     rgba(0, 42, 50, 0)
   );
+  pointer-events: none;
+  z-index: 0;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 4rem 2rem 6rem;
+  position: relative;
+  z-index: 1;
 }
 
 section + section {
