@@ -208,7 +208,7 @@ main::before {
   left: 0;
   right: 0;
   height: 40px;
-  background: linear-gradien(
+  background: linear-gradient(
     to bottom,
     rgba(0, 42, 50, 0.9),
     rgba(0, 42, 50, 0)
