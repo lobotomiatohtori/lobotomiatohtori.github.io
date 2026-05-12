@@ -227,11 +227,16 @@ section + section {
 }
 
 .about {
-  padding: 2rem 2rem;
+  padding: 2.5rem;
   border: 1px solid #222;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.02);
-  backdrop-filter: blur(4px);
+  border-radius: 2px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05),
+    rgba(255, 255, 255, 0.02)
+  );
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
   position: relative;
 }
 
@@ -249,9 +254,13 @@ section + section {
 .project {
   padding: 1.8rem 1.5rem;
   margin-bottom: 1.5rem;
-  border: 1px solid #222;
-  border-radius: 10px;
-  background: rgba(255, 255, 255, 0.03);
+  border-radius: 2px;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 42, 50, 0.92),
+    rgba(0, 42, 50, 0.85)
+  );
+  border: 1px solid rgba(255, 255, 255, 0.06)
   backdrop-filter: blur(4px);
   transition: all 0.25s ease;
 }
