@@ -90,11 +90,7 @@ a:hover {
 .hero {
   position: relative;
   min-height: 60vh;
-  background: 
-    linear-gradient(
-      rgba(0,0,0,0.8),
-      rgba(0,0,0,0.6)),
-    url("images/hero.png");
+  background: url("images/hero.png");
   background-size: cover;
   background-position: center;
   display: flex;
