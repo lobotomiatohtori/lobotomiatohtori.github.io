@@ -153,6 +153,8 @@ a:hover {
 .main-nav {
   background: #ED254E;
   width: 100%;
+  position: relative;
+  z-index: 10px;
 }
 
 .main-nav ul {
