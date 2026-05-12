@@ -179,6 +179,22 @@ a:hover {
   background: #02191D;
 }
 
+body.index .nav-index,
+body.about .nav-about,
+body.html-css .nav-html-css,
+body.scratch .nav-scratch,
+body.python .nav-python {
+  color: #ffffff;
+}
+
+body.index .nav-index::after,
+body.about .nav-about::after,
+body.html-css .nav-html-css::after,
+body.scratch .nav-scratch::after,
+body.python .nav-python::after {
+  width: 100%;
+}
+
 
 
 /* =====================
