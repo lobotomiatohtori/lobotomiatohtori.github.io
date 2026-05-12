@@ -204,7 +204,22 @@ body.python .nav-python::after {
 main {
   max-width: 900px;
   margin: 0 auto;
-  padding: 5rem 2rem 6rem;
+  padding: 4rem 2rem 6rem;
+  position: relative;
+}
+
+main::before {
+  content: "";
+  position: absolute;
+  top: -40px;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradien (
+    to bottom,
+    rgba(0, 42, 50, 0.9),
+    rgba(0, 42, 50, 0)
+  );
 }
 
 section + section {
