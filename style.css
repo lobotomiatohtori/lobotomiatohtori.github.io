@@ -262,6 +262,8 @@ section > h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1.5rem;
+  justify-items: stretch;
+  place-items: stretch;
 }
 
 .project {
@@ -295,6 +297,7 @@ section > h2 {
 }
 
 .project:last-child {
+  grid-column: span 2;
   border-bottom: none;
 }
 
