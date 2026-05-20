@@ -262,6 +262,7 @@ section > h2 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px; 1fr));
   gap: 1.5rem;
+  outline: 2px solid yellow;
 }
 
 .project {
@@ -279,6 +280,7 @@ section > h2 {
   border: 1px solid rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(4px);
   transition: all 0.25s ease;
+  outline: 2px solid red;
 }
 
 .project:hover {
