@@ -154,7 +154,8 @@ a:hover {
   background: #ED254E;
   width: 100%;
   position: relative;
-  z-index: 10px;
+  z-index: 100;
+  isolation: isolate;
 }
 
 .main-nav ul {
