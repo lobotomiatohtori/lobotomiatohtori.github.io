@@ -5,9 +5,9 @@
 body {
   margin: 0;
   font-family: 'Roboto', system-ui, -apple-system, sans-serif;
-  background-color: #0f0f0f;
-  background-image: radial-gradient(circle at 20% 20%, rgba(255, 59, 59, 0.06)),
-                    radial-gradient(circle at 80% 70%, rgba(255, 59, 59, 0.04));
+  background-color: #1c1626;
+  background-image: radial-gradient(circle at 20% 20%, rgba(237, 37, 78, 0.05)),
+                    radial-gradient(circle at 80% 70%, rgba(237, 37, 78, 0.03));
   color: #e6e6e6;
   line-height: 1.7;
   -webkit-font-smoothing: antialiased;
@@ -28,7 +28,7 @@ h2::before {
   bottom: -8px;
   width: 40px;
   height: 2px;
-  background: #ff3b3b;
+  background: #ED254E;
 }
 
 h2 {
@@ -234,12 +234,11 @@ section + section {
 
 .about {
   padding: 2.5rem;
-  border: 1px solid #222;
   border-radius: 2px;
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.05),
-    rgba(255, 255, 255, 0.02)
+    rgba(0, 42, 50, 0.92),
+    rgba(0, 42, 50, 0.85)
   );
   backdrop-filter: blur(6px);
   border: 1px solid rgba(255, 255, 255, 0.06);
@@ -255,6 +254,7 @@ section + section {
   line-height: 1.8;
   color: #d0d0d0;
   max-width: 65ch;
+  margin: 0 auto;
 }
 
 .project {
