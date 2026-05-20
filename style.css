@@ -260,9 +260,8 @@ section > h2 {
 
 .project-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px; 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(260px; 1fr));
   gap: 1.5rem;
-  outline: 2px solid yellow;
 }
 
 .project {
@@ -270,7 +269,7 @@ section > h2 {
   display: flex;
   flex-direction: column;
   padding: 1.8rem 1.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0;
   border-radius: 0px;
   background: linear-gradient(
     180deg,
@@ -280,7 +279,6 @@ section > h2 {
   border: 1px solid rgba(255, 255, 255, 0.06);
   backdrop-filter: blur(4px);
   transition: all 0.25s ease;
-  outline: 2px solid red;
 }
 
 .project:hover {
