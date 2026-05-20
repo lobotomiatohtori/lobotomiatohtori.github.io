@@ -258,7 +258,16 @@ section > h2 {
   max-width: none;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px; 1fr));
+  gap: 1.5rem;
+}
+
 .project {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
   padding: 1.8rem 1.5rem;
   margin-bottom: 1.5rem;
   border-radius: 0px;
@@ -306,7 +315,7 @@ section > h2 {
 }
 
 .project a {
-  margin-top: 1rem;
+  margin-top: auto;
   margin-left: 0;
   margin-right: 0;
 }
