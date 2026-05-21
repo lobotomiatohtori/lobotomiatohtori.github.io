@@ -343,9 +343,31 @@ section > h2 {
    Projects
 ===================== */
 
-.project-preview img {
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.main-image {
   width: 100%;
   border-radius: 20px;
+}
+
+.thumbs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.thumbs img {
+  width: 100px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.thumbs img:hover {
+  opacity: 1;
 }
 
 
