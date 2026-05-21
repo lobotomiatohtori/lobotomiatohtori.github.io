@@ -370,6 +370,21 @@ section > h2 {
   opacity: 1;
 }
 
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tech span {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transformation: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgba(0, 42, 50, 0.6);
+}
+
 
 
 /* =====================
