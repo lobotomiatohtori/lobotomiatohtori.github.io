@@ -111,7 +111,7 @@ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 backdrop-filter: blur(5px);
 transition: transform 0.3s ease, box-shadow 0.3s ease;
 width: 100%;
-max-width: 200px; /* rajaa kortin maksimileveyden */
+max-width: 200px;
 }
 
 .kuvakortti:hover { transform: translateY(-5px) scale(1.02);
