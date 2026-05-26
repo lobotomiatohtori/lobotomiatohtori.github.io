@@ -374,6 +374,7 @@ section > h2 {
   display: flex;
   flex-wrap: wrap;
   gap: 0.6rem;
+  margin-top: 0.5rem;
 }
 
 .tech span {
@@ -381,8 +382,8 @@ section > h2 {
   font-size: 0.75rem;
   letter-spacing: 0.1em;
   text-transformation: uppercase;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  background: rgba(0, 42, 50, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: transparent;
 }
 
 .tech span:hover {
