@@ -1,5 +1,5 @@
 body { margin: 0;
-background-image: url("images/texture.jpg");
+background-image: url("kuvat/texture.jpg");
 background-size: cover;
 background-position: center;
 background-repeat: no-repeat;
@@ -46,7 +46,7 @@ background-color: #ff8c7a;
 color: #2f2a5a;
 }
 
-.text-box { width: 80%;
+.text-box { width: 100%;
 max-width: 700px;
 margin: 0 auto;
 background-color: rgba(255, 255, 255, 0.75);
@@ -92,34 +92,34 @@ max-height: 60vh;
 border-radius: 10px;
 }
 
-#kuvagalleria { display: grid;
-grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-gap: 10px;
-justify-items: center;
+#gallery { display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 20px;
+justify-items: stretch;
 margin-top: 20px;
 }
 
-.kuvakortti { text-align: center;
+.image-card { text-align: center;
 font-family: 'Lato', sans-serif;
 font-size: 0.8rem;
-color: black;
+color: #222;
 letter-spacing: 1px;
-background-color: rgba(255, 255, 255, 0.3);
-padding: 10px;
+background-color: rgba(255, 255, 255, 0.35);
+padding: 12px;
 border-radius: 15px;
-box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+box-sizing: border-box;
+box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
 backdrop-filter: blur(5px);
-transition: transform 0.3s ease, box-shadow 0.3s ease;
+transition: transform 0.25s ease, box-shadow 0.25s ease;
 width: 100%;
-max-width: 200px;
 }
 
-.kuvakortti:hover { transform: translateY(-5px) scale(1.02);
+.image-card:hover { transform: translateY(-5px) scale(1.02);
 box-shadow: 0 12px 25px rgba(0, 0, 0, 0.4);
 }
 
-.kuvakortti img { width: auto;
-max-width: 100%;
-max-height: 150px;
+.image-card img { width: 100%;
+height: 180px;
+object-fit: cover;
 border-radius: 10px;
 }
